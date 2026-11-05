@@ -90,3 +90,59 @@ Aplicación para músicos productores
             max-width: 700px;
             margin: 0 auto 2rem auto;
         }
+        
+        .btn {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.2s;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background-color: var(--primary-hover);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-muted);
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo">⚡ PulseBeat</a>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#comunidad">Comunidad</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <h1>El ritmo de tu creatividad</h1>
+            <p>Plataforma web para productores independientes. Gestiona, colabora y distribuye tus proyectos de audio sin fricciones de interfaz.</p>
+            <a href="#servicios" class="btn">Empezar ahora</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 PulseBeat. Vocacional 5 - Grupo 5IV12 (Ramírez Vázquez, Cruz Lira, Cruz García).</p>
+    </footer>
+
+</body>
+</html>
